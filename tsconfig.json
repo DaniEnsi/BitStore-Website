@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./src/*"]
+    },
+    "types": [
+      "@types/node",
+      "vite/client",
+      /* Nuxt types */
+      "@nuxt/types",
+      "@nuxt/content",
+      "@nuxtjs/axios",
+      "@nuxtjs/moment",
+      "nuxt-windicss",
+      "@nuxtjs/color-mode",
+      "@nuxt/image",
+      /* Additional types */
+      "@types/prismjs"
+    ],
+    "typeRoots": ["./@types"]
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "stories/**/*.vue",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue",
+    "src/supabase/supabaseClient.jsCliesrc/supabase/supabaseClient.js/supabaseClient.js"
+  ]
+}

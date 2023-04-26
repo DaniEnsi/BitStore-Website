@@ -1,0 +1,17 @@
+<kbd>Option</kbd> <kbd>Space</kbd> 
+
+> **Para Birimi:** Lek - **Başkent:** Tiran - **Dil:** Arnavutça
+
+
+```js [style.css]
+// ES
+import SpotifyWebApi from "spotify-web-api-node"
+import SpotifyToYoutube from "spotify-to-youtube"
+
+// CommonJS
+const SpotifyWebApi = require("spotify-web-api-node")
+const SpotifyToYoutube = require("spotify-to-youtube")
+```
+
+
+<blog-notification type="warning">Bu işlemleri herhangi bir modül kullanmadan, tamamen kendi kodunuzu yazarakta gerçekleştirebilirsiniz fakat bu yazının bu işlemlerin tüm ayrıntılara girmeyerek, kolay yoldan size bu işlemi göstermesi hedefiyle bu modülleri kullanacağınızı unutmayın.</blog-notification>
